@@ -1,0 +1,12 @@
+version: "3.7"
+
+services:
+  cra-app:
+    build: cra-app
+    command: yarn start
+    environment:
+      WDS_SOCKET_PORT: 13000
+    ports:
+      - 13000:3000
+    volumes:
+      - ./cra-app:/cra-app
