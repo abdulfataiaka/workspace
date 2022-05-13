@@ -11,3 +11,5 @@ docker-compose exec cra-app bash
 docker-compose run --rm cra-app bash
 
 ```
+
+## Django App
