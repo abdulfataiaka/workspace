@@ -4,11 +4,10 @@ import reportWebVitals from './reportWebVitals';
 import './main.css';
 // import App from './App';
 // import DragAndDrop from './DragAndDrop';
-import Members from './Members';
+// import Members from './Members';
+import EventSourceClient from './EventSourceClient';
 
-const RenderComponent = Members;
-
-ReactDOM.createRoot(document.getElementById('root')).render(<RenderComponent />);
+ReactDOM.createRoot(document.getElementById('root')).render(<EventSourceClient />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

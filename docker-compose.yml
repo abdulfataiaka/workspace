@@ -10,3 +10,13 @@ services:
       - 13000:3000
     volumes:
       - ./cra-app:/cra-app
+
+  express-app:
+    build: express-app
+    command: yarn start
+    environment:
+      PORT: 8000
+    ports:
+      - 18000:8000
+    volumes:
+      - ./express-app:/express-app
