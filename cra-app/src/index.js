@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import './main.css';
 // import App from './App';
+// import CustomTreeView from './CustomTreeView';
 // import DragAndDrop from './DragAndDrop';
 // import Members from './Members';
-import EventSourceClient from './EventSourceClient';
+// import EventSourceClient from './EventSourceClient';
+import FetchEventSource from './EventSourceClient/FetchEventSource';
 
-ReactDOM.createRoot(document.getElementById('root')).render(<EventSourceClient />);
+
+ReactDOM.createRoot(document.getElementById('root')).render(<FetchEventSource />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
